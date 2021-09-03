@@ -1,5 +1,5 @@
 {% set name = "liblsl" %}
-{% set version = "1.15.0" %}
+{% set version = "1.15.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sccn/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 7b0c927fba9875c2eb930e5347a339f0aef750291e94045c3f8dbc6e5112d4a5
+  sha256: 62c47f20e8a7931c05db9fda94a589bdb283baf948fe5614ec37cddc79da5234
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Multi-modal time-synched data transmission over local network'
+  summary: Multi-modal time-synched data transmission over local network
   doc_url: https://labstreaminglayer.readthedocs.io/
   dev_url: https://github.com/sccn/{{ name }}
 extra:
