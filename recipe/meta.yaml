@@ -10,7 +10,7 @@ source:
   sha256: 308ae1fb36e17fc5fd4d6dee6a7967ff041488f41e6b4c4cdfe0ebe00f755a4c
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('liblsl', max_pin='x') }}
 
