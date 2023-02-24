@@ -42,4 +42,5 @@ about:
   dev_url: https://github.com/sccn/{{ name }}
 extra:
   recipe-maintainers:
+    - cboulay
     - tstenner
