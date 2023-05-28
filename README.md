@@ -1,11 +1,11 @@
-About liblsl
-============
+About liblsl-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/liblsl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sccn/liblsl
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/liblsl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Multi-modal time-synched data transmission over local network
 
@@ -187,5 +187,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@cboulay](https://github.com/cboulay/)
 * [@tstenner](https://github.com/tstenner/)
 
