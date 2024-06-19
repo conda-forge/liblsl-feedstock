@@ -1,3 +1,4 @@
+export CMAKE_CXX_FLAGS "-std=c++0x"
 cmake $CMAKE_ARGS \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DLSL_BUNDLED_PUGIXML=OFF \
