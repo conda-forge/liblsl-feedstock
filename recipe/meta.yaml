@@ -13,6 +13,8 @@ build:
   number: 2
   run_exports:
     - {{ pin_subpackage('liblsl', max_pin='x') }}
+  script_env:
+   - CMAKE_CXX_FLAGS=-std=c++11 # [osx and x86_64]
 
 requirements:
   build:
