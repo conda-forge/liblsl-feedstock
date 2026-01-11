@@ -1,5 +1,5 @@
 {% set name = "liblsl" %}
-{% set version = "1.16.2" %}
+{% set version = "1.17.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,16 +7,16 @@ package:
 
 source:
   url: https://github.com/sccn/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 923aa4c81c0fef651c325e3c27aa5b96771540ca2a0933d1b327db27c6dac839
+  sha256: d397f943be164f587bc9139427ea54173f28ac1b5505044ae11fd9977442e5be
 
 build:
-  number: 4
+  number: 0
   run_exports:
     - {{ pin_subpackage('liblsl', max_pin='x') }}
 
 requirements:
   build:
-    - cmake >=3.12
+    - cmake >=3.28
     - make
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
